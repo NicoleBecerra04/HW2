@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+ html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #000; /* optional */
+  }
+  canvas {
+    display: block;
+  }
+</style>
+
+  <meta charset="utf-8" />
+  <title>Skyblock (p5.js)</title>
+  
+  <!-- p5 core library -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"></script>
+  <!-- p5 sound library -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/addons/p5.sound.min.js"></script>
+
+  <!-- Your game files -->
+  <script src="player.js"></script>
+  <script src="block.js"></script>
+  <script src="sketch.js"></script>
+</head>
+
+<body style="margin:0; overflow:hidden;">
+  <!-- You can also add a simple message for browsers that block autoplay -->
+  <p id="start-message" style="text-align:center; font-family:sans-serif;">
+    Click anywhere to start sound if it's muted.
+  </p>
+</body>
+</html>
