@@ -25,11 +25,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   player1 = new Player(width / 2 - 40, height - 90, color(0, 150, 255)); // blue
   player2 = new Player(width / 2 + 10, height - 90, color(255, 100, 100)); // red
-
-  file = loadSound('Subwoofer.mp3', () => {
-    file.loop();
-  });
 }
+
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
